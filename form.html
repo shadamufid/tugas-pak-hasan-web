@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container_form">
+<div class="container mt-3">
+    <h3>REGRISTRASI AKUN ANDA UNTUK MASUK</h3>
+    <p>Silahkan isi data anda dengan benar.</p>
+      
+    <form action="home.html" class="was-validated" method="get" >
+      <div class="mb-3 mt-3"> 
+        <label for="uname" class="form-label">Nama Depan Anda</label>
+        <input type="text" class="form-control" id="uname" placeholder="Enter username" name="uname" required>
+        <div class="valid-feedback">Valid.</div>
+        <div class="invalid-feedback">Mohon Masukkan Nama Depan Anda.</div>
+      </div>
+      <div class="mb-3 mt-3"> 
+        <label for="uname" class="form-label">Nama Belakang Anda</label>
+        <input type="text" class="form-control" id="uname" placeholder="Enter username" name="uname" required>
+        <div class="valid-feedback">Valid.</div>
+        <div class="invalid-feedback">Mohon Masukkan Nama Belakang Anda.</div>
+      </div>
+      <div class="mb-3 mt-3">
+        <label for="email" class="form-label">Masukkan Email</label>
+        <input type="email" class="form-control" id="email" placeholder="Enter email" name="email" required>
+        <div class="valid-feedback">Valid.</div>
+        <div class="invalid-feedback">Mohon Masukkan Email.</div>
+      </div>
+     
+      <div class="mb-3">
+        <label for="pwd" class="form-label">Masukkan Password Anda</label>
+        <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd" required>
+        <div class="valid-feedback">Valid.</div>
+        <div class="invalid-feedback">Mohon Masukkan Password Anda.</div>
+      </div>
+
+      
+      
+      <div class="form-check">
+        <p>Pilih Jenis Kelamin Anda</p>
+        <input type="radio" class="form-check-input" id="radio2" name="optradio" value="option2" required>
+        <label class="form-label" for="radio2">Laki-Laki</label>
+      </div>
+      <div class="form-check">
+        <input type="radio" class="form-check-input" id="radio3" name="optradio" value="option3" required>
+        <label class="form-label" for="radio2">Perempuan</label>
+        <div class="valid-feedback">Valid.</div>
+        <div class="invalid-feedback">Pilih Salah Satu</div>
+      </div> <br>
+
+      <div class="form-check mb-3">
+        <input class="form-check-input" type="checkbox" id="myCheck"  name="remember" required>
+        <label class="form-label" for="myCheck"> Bersedia dan Setuju Dengan Kebijakan Website ini.</label>
+        <div class="valid-feedback">Valid.</div>
+        <div class="invalid-feedback">Silahkan Di Centang.</div>
+      </div> <br>
+      
+    <button type="submit" class="btn btn-succes">Submit</button>
+    </form>
+  </div> <br> <br>
+</div> 
+
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>

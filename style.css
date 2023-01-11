@@ -1,0 +1,541 @@
+
+body{
+    background-color: #130f40;
+    background: url(daun.jpg ) ;
+    background-size: cover;
+    background-size: 1500px;
+    
+}
+
+.main{
+width: 100%;
+padding-top: 50px;
+}
+
+.masuk{
+    text-align: justify;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    padding-top: 10%;
+    padding-left: -150px;
+    color: rgb(250, 250, 250);
+}
+
+.tombol1{
+
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 80px;
+    color: black;
+    margin-left: 300px;
+    margin-top: 0px;
+    width:150px;
+    text-align: center;
+    
+
+    
+
+}
+
+.tombol2{
+
+    font-family:'Franklin Gothic Medium', sans-serif;
+    font-size: 80px;
+    color: black;
+    margin-left: 0px;
+    margin-top: -140px;
+    width: 150px;
+    text-align: center;
+    
+
+
+
+}
+.login_form{
+    padding: 20px 40px;
+}
+
+.login_form .font{
+    font-size: 18px;
+    color: #130f40;
+    margin: 5px 0;
+}
+.login_form input{
+    height: 40px;
+    width: 350px;
+    padding: 0 5px;
+    font-size: 18px;
+    outline: none;
+    border: 1px solid silver;
+}
+
+.login_form .font2{
+    margin-top: 30px;
+}
+.login_form button{
+    margin: 45px 0 30px 0;
+    height: 45px;
+    width: 365px;
+    font-size: 20px;
+    color: white;
+    outline: none;
+    cursor: pointer;
+    font-weight: bold;
+    background: #2a3cff;
+    border-radius: 3px;
+    border: 1px solid #3949ab;
+    transition: .6s;
+}
+.login_form button:hover{
+    background: #1422bc;
+}
+.login_form #email_error,
+.login_form #pass_error{
+    margin-top: 5px;
+    width: 345px;
+    font-size: 18px;
+    color: #fcf8f8;
+    background: rgba(255,0,0,0.1);
+    text-align: center;
+    padding: 5px 8px;
+    border-radius: 3px;
+    border: 1px solid #EF9A9A;
+    display: none;
+
+}
+
+
+.container_form{
+
+    background-color: rgba(7, 74, 76, 0);
+    width: 35%;
+    margin: auto;
+    border-radius: 30px;
+    padding: 30px;
+    box-sizing: border-box;
+    color: #ddd;
+}
+.container mt-3{
+    color: #ddd;
+}
+.invalid-feedback{
+    color: #e327ab;
+}
+.form-check{
+    color: #e327ab;
+    font-family: 'Times New Roman', Times, serif;
+}
+.form-label{
+    color: rgb(246, 247, 246);
+}
+    
+
+
+.cont1{
+
+    width: 540px;
+    margin-left: 50px;
+    float: left;
+    box-sizing: border-box;
+    padding: 20px;
+}
+.cont2{
+
+    width: 640px;
+    float: left;
+    margin-left: 30px;
+    box-sizing: border-box;
+    padding: 20px;
+    
+}
+
+.artikel{
+    background-image: linear-gradient( rgb(24, 68, 26), rgb(11, 30, 79), rgb(7, 37, 71));
+    width: 450px;
+    height: 150px;
+    box-sizing: border-box;
+    padding: 30px;
+    margin-top: 10px;
+    border-radius: 10px;
+    border: 2px solid white;
+    box-shadow: 3px 3px 2px rgba(0,0,0,0.4);
+    text-align: center;
+    margin-left: 50px;
+}
+.skill{
+    background-image: linear-gradient( rgb(6, 61, 51), rgb(29, 8, 67), rgb(48, 138, 195));
+    width: 450px;
+    height: 150px;
+    box-sizing: border-box;
+    padding: 30px;
+    margin-top: 10px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 2px rgba(0,0,0,0.4);
+    text-align: center;
+    margin-left: 50px;
+}
+.skill h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    color: rgba(8, 8, 8, 0);
+    -webkit-text-stroke: 1px white;
+    }
+.skill p{
+    font-size: 12px;
+    color: aliceblue;
+}
+    
+.artikel h2{
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 40px;
+font-weight: bold;
+color: rgba(12, 12, 13, 0);
+-webkit-text-stroke: 1px rgb(252, 252, 252);
+}
+.artikel p{
+    font-size: 12px;
+    color: aliceblue;
+}
+.sub_menu1{
+    margin-left: 200px;
+    font-family: Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    display: inline;
+    
+}
+.sub_menu2{
+    margin-left: 50px;
+    font-family: Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    display: inline;
+    
+}
+.sub_menu3{
+    margin-left: 50px;
+    font-family: Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    display: inline;
+    
+}
+.sub_menu4{
+    margin-left: 50px;
+    font-family: Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    display: inline;
+    
+}
+.sub_menu7{
+    margin-left: 50px;
+    font-family: Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    display: inline;
+    
+}
+.sub_menu6{
+    margin-left: 50px;
+    font-family: Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    display: inline;
+    
+}
+.sub_menu8{
+    margin-left: 50px;
+    font-family: Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    display: inline;
+    
+}
+
+.banner{
+    
+        height: 1000px;
+        background-image: url(daun8.jpg);
+        background-size: cover;
+        border: 5px  solid rgb(11, 11, 11) ;
+        
+        
+    
+}
+
+
+.maps{
+    
+    border: 5px solid rgb(10, 10, 9);
+    display: inline-block;
+    margin-left: 350px;
+    margin-top: 30px;
+}
+
+
+.header{
+    text-align: center;
+     font-family:Arial, Helvetica, sans-serif; 
+     color: rgb(246, 248, 251); 
+     font-weight: bold;
+      font-size: 40px; 
+      margin-top: 50px; 
+      margin-bottom: 40px;
+      margin-left: 150px;
+       width: 1000px; 
+      
+}
+
+.header1{
+    text-align: left;
+     font-family:Arial, Helvetica, sans-serif; 
+     color: aliceblue; 
+     font-weight: bold;
+      font-size: 30px; 
+      margin-top: 50px; 
+      margin-bottom: 40px;
+      margin-left: 450px;
+       width: 1000px; 
+      
+}
+.visi{
+    background-color: rgba(0, 0, 0, 0.437);
+    width: 800px;
+    border-radius: 12px;
+    box-sizing: border-box;
+    padding: 15px;
+    margin: auto;
+    font-size: 20px;
+    color: white;
+}
+.header2{
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+
+
+
+.place{
+    place-items: center;
+    display: grid;
+    margin: auto;
+}
+
+.wraper .button{
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    float: left;
+    margin: 0 5px;
+    overflow: hidden;
+    background: #fff;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0, 1);
+    transition: all 0.3s ease-out;
+
+}
+.wraper .button .icon{
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    text-align: center;
+    border-radius: 50px;
+    box-sizing: border-box;
+    line-height: 60px;
+    transition: all 0.3s ease-out;
+}
+.wraper .button:nth-child(1):hover .icon{
+    background: #2980b9;
+}
+.wraper .button:nth-child(2):hover .icon{
+    background: #3498db;
+}
+.wraper .button:nth-child(3):hover .icon{
+    background: #e74c3c;
+}
+.wraper .button:nth-child(4):hover .icon{
+    background: #c0392b;
+}
+.wraper .button .icon{
+font-size: 25px;
+line-height: 60px;
+transition: all 0.3s ease-out;
+}
+.wraper .button:hover .icon{
+    color: #fff;
+}
+.wraper .button span{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 60px;
+    margin-left: 10px;
+    transition: all 0.3s ease-out;
+}
+.wraper .button:nth-child(1)span{
+    background: #2980b9;
+}
+.wraper .button:nth-child(2)span{
+    background: #3498db;
+}
+.wraper .button:nth-child(3)span{
+    background: #e74c3c;
+}
+.wraper .button:nth-child(4)span{
+    background: #c0392b;
+}
+
+
+.btn_floating{
+    position: fixed;
+    right: 25px;
+    overflow: hidden;
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    border: 0;
+    z-index: 9999;
+    color: white;
+    transition: .2s;
+
+}
+
+.btn_floating:hover{
+    width: auto;
+    padding: 0 20px;
+    cursor: pointer;
+}
+.btn_floating span{
+    font-size: 16px;
+    margin-left: 5px;
+    transition: .2s;
+    line-height: 0px;
+    display: none;
+}
+
+.btn_floating:hover span{
+    display: inline-block;
+}
+.btn_floating:hover i{
+    margin-bottom:-3px;
+}
+/*  clearfix */
+
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+.kata{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    color: aliceblue;
+    size: 250px;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+    *zoom: 1;
+}
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .header {
+    text-align: center;
+    padding: 32px;
+  }
+  
+  .row {
+    display: -ms-flexbox; /* IE 10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE 10 */
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  
+  /* Create two equal columns that sits next to each other */
+  .column {
+    -ms-flex: 50%; /* IE 10 */
+    flex: 50%;
+    padding: 0 4px;
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+  }
+  
+  /* Style the buttons */
+  .btn {
+    border: none;
+    outline: none;
+    padding: 10px 16px;
+    background-color: #f1f1f1;
+    cursor: pointer;
+    font-size: 18px;
+  }
+  
+  .btn:hover {
+    background-color: #ddd;
+  }
+  
+  .btn.active {
+    background-color: #666;
+    color: white;
+  }
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(222, 152, 152, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+  }
+  .card h1{
+    font-size: 30px;
+  }
+  
+  .title {
+    color: rgb(109, 4, 4);
+    font-size: 18px;
+  }
+  
+  button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: rgb(181, 123, 123);
+    background-color: rgb(91, 35, 35);
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  a {
+    text-decoration: none;
+    font-size: 22px;
+    color: rgb(254, 252, 252);
+  }
+  
+  button:hover, a:hover {
+    opacity: 0.7;
+  }
